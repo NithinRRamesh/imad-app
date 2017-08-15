@@ -66,7 +66,7 @@ function createTemplate(data){
         <head>
             <title>${title}</title>
             <meta name="viewport" content="width-device-width,initial-scale=1">
-            <style link="/ui/style.css" rel="stylesheet"></style>    
+            <link href="/ui/style.css" rel="stylesheet"></link>    
         </head>
         
         <body>
