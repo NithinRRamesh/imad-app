@@ -13,7 +13,7 @@ app.get('/article-one',function(req,res){
     res.send("Article one requested and will be served");
 });
 app.get('/article-two',function(req,res){
-    res.send("Article two requested and will be served");
+    res.send("<strong>>Article two requested and will be served</strong>");
 });
 
 app.get('/ui/style.css', function (req, res) {
